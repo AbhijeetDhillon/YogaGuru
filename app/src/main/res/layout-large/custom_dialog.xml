@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NoAdsRequest"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NoAdsAnswer"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="30dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:indeterminateTintMode="src_atop"
+                        android:indeterminateTint="@color/colorPrimary"
+                        android:layout_gravity="center" />
+                    <ImageView
+                        android:id="@+id/watched1stAd"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/ad1loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Ad is Loading..."
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/watchAd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#4bcfda"
+                android:textColor="#ffffff"
+                android:text="Watch Ad"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="30dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ProgressBar
+                        android:id="@+id/progressbar2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:indeterminateTintMode="src_atop"
+                        android:indeterminateTint="@color/colorPrimary"
+                        android:layout_gravity="center" />
+                    <ImageView
+                        android:id="@+id/watched2ndAd"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/check"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/ad2loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Ad is Loading..."
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/watchAd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch Ad"
+                android:background="#4bcfda"
+                android:textColor="#ffffff"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/sucessOrFail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/congrats"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                >
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:background="#4bcfda"
+                    android:textColor="#ffffff"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:background="#4bcfda"
+                    android:textColor="#ffffff"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+

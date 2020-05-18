@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:id="@+id/mainGrid"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+    >
+
+    <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/imgBtnRSend1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFFFFF"
+            android:onClick="weightLoss"
+            >
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:src="@drawable/weightloss"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp" />
+
+                <TextView
+
+                    android:text="@string/weight_loss"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/imgBtnRSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFFFFF"
+            android:onClick="flexibility"
+
+            >
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:src="@drawable/flexibility"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"  />
+
+                <TextView
+                    android:text="@string/flexibility_and_strength"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/imgBtnRSend20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFFFFF"
+            android:onClick="stress"
+            >
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:src="@drawable/stressrelief"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"  />
+
+                <TextView
+                    android:text="@string/stress_amp_anxiety_relief"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/imgBtnRSend21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="8dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFFFFF"
+                android:onClick="weightGain"
+                >
+
+                <LinearLayout
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:src="@drawable/weightgain"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"  />
+
+                    <TextView
+                        android:text="@string/weight_gain_bulk"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/imgBtnRSend200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="8dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFFFFF"
+                android:onClick="fitness"
+                >
+
+                <LinearLayout
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:src="@drawable/fitnesss"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="150dp"
+                        android:layout_height="110dp"  />
+
+                    <TextView
+                        android:text="@string/fitness_amp_endurance"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/imgBtnRSend2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="8dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFFFFF"
+                android:onClick="tonnedBody"
+                >
+
+                <LinearLayout
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:src="@drawable/tonnedbody"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="150dp"
+                        android:layout_height="110dp" />
+
+                    <TextView
+                        android:text="@string/toned_shredded_body"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

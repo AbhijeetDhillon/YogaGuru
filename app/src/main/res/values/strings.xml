@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Yoga Guru</string>
+    <string name="bannerId">ca-app-pub-8178002946812610/7474057658</string>
+    <string name="interstitialId">ca-app-pub-8178002946812610/6105135660</string>
+    <string name="RewardId">ca-app-pub-1909122143192244/4803823985</string>
+    <string name="flatIconCredit">1) The app logo and all the animated yoga poses icons, next, previous and timer icons are Designed by roundicons from www.flaticon.com</string>
+    <string name="freepik">2) Beginner, Advance, Intermediate icons and youtube icons are Designed by freepik from www.flaticon.com. Camera icon by is Designed by Prosymbols from www.flaticon.com</string>
+    <string name="yogaVideos">3) All the yoga videos are created by HFE (Health and Fitness Education) and the yoga teacher is Karen. Check out their website https://www.hfe.co.uk/yoga to learn more about becoming a qualified yoga teacher with HFE.</string>
+    <string name="question">2) How Should I Follow The Program?</string>
+    <string name="answerOne">If you have never done yoga or have taken a long break, then proceed with the Beginner module and continue it for 4 to 5 weeks. Then move onto Intermediate for 5 to 6 weeks posy which start with the Advance Section</string>
+    <string name="question2">3) Should I make changes in my Diet?</string>
+    <string name="answer2">Yes, for weight loss and toned body, you should reduce oily food and junk food. For weight gain include protein rich foods in your diet. Please check our Diet Section</string>
+    <string name="questionthree">1) How Should I Use This App?</string>
+    <string name="answer3">Select your goal and level. After that you will get a yoga routine. Tap on the first one pose and watch the complete video of the yoga pose and then start the timer to perform it. Once completed click on the next(Arrow) button</string>
+    <string name="NoAds">5) No Ads Icon by Those Icons from flat Icon</string>
+    <string name="doct">We recommend you to first consult a doctor in this case and act upon the doctor\'s decision</string>
+    <string name="medical">4) Should I follow the program if I have a medical condition?</string>
+    <string name="limitation">5) I am unable to perform a particular yoga pose, What should I do?</string>
+    <string name="side">Remember if a Yoga pose has two movements(Right and left or Up and Down), then do one movement for half the time on the timer and utilize the remaining time for the other movement.   For any other questions please mail us at fitsagefitness@gmail.com</string>
+    <string name="NoAdsRequest">Don\'t let Ads disturb you between your Yoga Routine.</string>
+    <string name="NoAdsAnswer">Instead just watch the ads below and make the app Ad Free for the whole day!</string>
+    <string name="congrats">Congratulations!! You have an Ad Free app for today</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="weight_loss">Weight Loss</string>
+    <string name="flexibility_and_strength">Flexibility and Strength</string>
+    <string name="stress_amp_anxiety_relief"><![CDATA[Stress & Anxiety Relief]]></string>
+    <string name="weight_gain_bulk">Weight Gain / Bulk</string>
+    <string name="fitness_amp_endurance"><![CDATA[Fitness & Endurance]]></string>
+    <string name="toned_shredded_body">Shredded Body</string>
+    <string name="tap_above_to_start_time">Tap above to start timer</string>
+    <string name="Note">Note : These are general diet plans. If you have any allergies or medical condition such as Diabetes, Blood Pressure, Pregnancy etc we would recommend you to consult a Doctor before following these Plans</string>
+</resources>
